@@ -25,7 +25,6 @@
       };
 
       overlays.default = final: prev: {
-        inherit prev;
         bn-git-sync = packages.${system}.default;
       };
     };
